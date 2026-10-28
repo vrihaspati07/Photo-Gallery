@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 15px;
+  }
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+  }
+}
+
+/* soft blue-to-orange wash at the top of the page */
+.page-glow {
+  background:
+    radial-gradient(55% 100% at 15% 0%, rgba(58, 91, 255, 0.1), transparent 70%),
+    radial-gradient(55% 100% at 88% 0%, rgba(255, 122, 47, 0.12), transparent 70%);
+}

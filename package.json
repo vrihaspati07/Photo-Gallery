@@ -1,0 +1,43 @@
+{
+  "name": "photo-gallery",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A responsive, modern Photo Gallery web application built with React 18, Vite, and Tailwind CSS. Features real-time author search, favourite bookmarking with persistent localStorage, and seamless Picsum API integration.",
+  "author": "Vrihaspati Chaubey (https://github.com/vrihaspati07)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrihaspati07/Photo-Gallery.git"
+  },
+  "homepage": "https://github.com/vrihaspati07/Photo-Gallery#readme",
+  "bugs": {
+    "url": "https://github.com/vrihaspati07/Photo-Gallery/issues"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "tailwind-css",
+    "photo-gallery",
+    "picsum-photos",
+    "react-hooks",
+    "use-reducer",
+    "local-storage",
+    "responsive-design"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.11"
+  }
+}
